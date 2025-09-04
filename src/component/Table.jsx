@@ -10,8 +10,8 @@ export default function Table({ data }) {
   return (
     <div className="rounded-[24px] shadow-sm border-none bg-white p-[12px] h-[100%]">
       {/* Tabs + Actions */}
-      <div className="flex justify-between border-b-transparent px-4 py-3  flex-col sm:flex-row gap-2">
-        <div className="flex gap-6 text-sm font-medium">
+      <div className="flex justify-between border-b-transparent px-4 py-3  flex-col  md:flex-row gap-3">
+        <div className="flex gap-2 text-sm font-medium flex-col sm:flex-row">
           {tableBtn.map((item) => {
             return (
               <button
@@ -24,12 +24,12 @@ export default function Table({ data }) {
             );
           })}
         </div>
-        <div className="flex gap-3 text-sm font-medium">
-          <button className="flex items-center px-3 py-1.5 text-sm border rounded-lg ">
+        <div className="flex gap-2 text-sm font-medium flex-col sm:flex-row ">
+          <button className="flex items-center px-3 py-1.5 text-sm border rounded-lg sm:text-center">
             <Filter className="w-4 h-4 mr-1" /> Filter
           </button>
           <button
-            className="flex items-center px-3 py-1.5 text-sm  text-white"
+            className="flex items-center px-3 py-1.5 text-sm  text-white sm:text-center"
             style={{ background: "#533CD2" }}
           >
             <PlusCircle className="w-4 h-4 mr-1" /> Send Amount

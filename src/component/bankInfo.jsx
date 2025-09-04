@@ -4,7 +4,7 @@ import company from "../assets/company.png";
 export default function BankInfoCard() {
   return (
     <div className="bg-[#533CD2] text-white  shadow-md p-6 flex flex-col justify-between rounded-[24px] shadow-sm border-none h-[100%]">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center flex-col xs:flex-row gap-2">
         {/* <h2 className="text-lg font-semibold">SHIVALIK</h2> */}
         <img
           src={company}

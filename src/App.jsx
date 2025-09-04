@@ -67,9 +67,7 @@ function App() {
 
           {/* Table Row */}
           <section className="p-4 pl-0">
-            {/* <div className="rounded-xl "> */}
             <Table data={transactions} />
-            {/* </div> */}
           </section>
         </main>
       </div>

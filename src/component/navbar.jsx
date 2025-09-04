@@ -45,7 +45,7 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search IRN, UTR, or AMT"
-            className="pl-[40px] pr-[18px] py-[8px] text-sm border-[0.5px] border-[#CAD1E0] rounded-[24px]   focus:ring-indigo-500  focus:outline-none"
+            className="pl-[40px] pr-[18px] py-[8px] text-sm border-[0.5px] border-[#CAD1E0] rounded-[24px]  w-[100%] focus:ring-indigo-500  focus:outline-none"
           />
         </div>
         <div className="flex justify-stretch gap-3">
